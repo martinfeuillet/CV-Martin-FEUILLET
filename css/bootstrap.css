@@ -1,10 +1,10 @@
 @import url(font.css);
 
 /* css variable */
-@import url(_variables.css);
+@import "_variables.css";
 
 /* global style */
-@import url(_global.css);
+@import "_global.css";
 
 /*  start navigation */
 .main-menu{
