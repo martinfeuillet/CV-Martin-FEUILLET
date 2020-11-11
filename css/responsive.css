@@ -1,0 +1,24 @@
+@media screen and (max-width:340px){
+    .main-menu .navbar,
+    .main-menu .navbar .navbar-brand,
+    .about-area h2
+    main
+    {
+        padding : 2%;
+        margin: 0;
+        
+    }
+
+.site-banner .banner-image img,
+.about-area .about-image img,
+#contact img{
+
+    display: none;
+}
+
+
+    .site-banner .site-title h1{
+        font-size: 4px;
+    }
+} 
+

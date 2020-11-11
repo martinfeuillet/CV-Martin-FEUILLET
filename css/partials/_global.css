@@ -1,0 +1,116 @@
+.title-text{
+    font: normal bold 2em var(--roboto);
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/* buttons */
+
+.button{
+    padding : .8rem 1.5rem;
+    font: normal 500 16px/20px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 10px;
+
+}
+
+.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: ease .9s;
+    box-shadow: var(--box-shadow);
+}
+
+.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black
+}
+
+.primary-button::after, .secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: var(--gradient-color );
+    content: '';
+    z-index: -1;
+}
+
+.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: ease .9s;
+
+}
+
+.secondary-button:hover{
+    background: var(--gradient-color);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+
+P.para{
+color: var(--text-color);
+font:normal 500 16px/25px var(--roboto);
+}
+
+.flip-card {
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+  /* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+  /* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+  /* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: white;
+    color: black;
+}
+
+  /* Style the back side */
+.flip-card-back {
+    position: absolute;
+    top: 40%;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn:active{
+    outline : 0px !important;
+    box-shadow: none !important;
+}
