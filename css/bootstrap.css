@@ -237,7 +237,7 @@ padding: 0 2rem 0 4rem;
 
 .brand-area{
 	padding: 1rem 4rem;
-	margin: 0 6rem;
+	margin: 6rem;
 	margin-bottom: 3rem;
 
 }
@@ -257,56 +257,7 @@ justify-content: center;
 	margin: 0.3rem 0;
 }
 
-.experience-area{
-	padding-left: 3rem;
-}
-.experience-area span{
-	display: block;
-	margin-left: 1rem;
-	font: normal 600 22px/30px var(--roboto);
 
-}
-
-.years-area{
-	position: relative;
-
-}
-
-.experience .bg-panel{
-	position: absolute;
-	left: -300px; top: 0%;
-	background: #e029290a;
-	width: 400px;
-	height: 525px;
-	margin-left: 340px;
-}
-
-.call-area{
-	margin-top: 18rem;
-	margin-left: 3rem;
-	text-decoration: none;
-}
-.call-now{
-	z-index: 3;
-}
-
-.maitrise{
-	font-family: var(--roboto);
-	font-size: 2rem;
-}
-
-
-.years{
-	margin-top: 2rem;
-	font: normal bold 84px/40px var(--roboto);
-	color: var(--primary-color2);
-	z-index: 2;
-}
-
-.apprenti {
-	font-size: 1.1rem;
-	font-family: var(--roboto);
-}
 /* end brand area */
 
 /* services area */
@@ -375,7 +326,7 @@ filter: brightness(1.2)drop-shadow(6px 8px 20px #b1afaf);
 
 #contact{
 	padding: 3em 3em;
-	margin: 2em 4em;
+	margin: 2rem 4rem;
 }
 
 #contact h3{

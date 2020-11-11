@@ -1,24 +1,137 @@
-@media screen and (max-width:340px){
-    .main-menu .navbar,
-    .main-menu .navbar .navbar-brand,
-    .about-area h2
-    main
-    {
-        padding : 2%;
+@media screen and (max-width:360px){
+    .site-banner .banner-image img,
+    .about-area .about-image img,
+    #contact img{
+        display: none;
+    }
+    main{
         margin: 0;
-        
+        padding: 0;
     }
 
-.site-banner .banner-image img,
-.about-area .about-image img,
-#contact img{
+    .about-me h2{
+        font: bold 1rem var(--roboto)
+    }
 
-    display: none;
-}
+    .site-main .about-me{
+        padding: 4rem 3.5rem;
+        text-align: center;
+    }
 
+
+    .about-area p{
+        width: 200px;
+        text-align: center;
+    }
+
+    .brand-area h2 {
+        font-size: 1.5rem;
+    }
+    .single-brand{
+        text-align: center;
+    }
+    .brand-area{
+        padding: 0rem;
+        margin: 0rem ;
+        margin-bottom: 3rem;
+
+    }
+
+    .flip-card-inner{
+        text-align: center;
+    }
 
     .site-banner .site-title h1{
-        font-size: 4px;
+        font-size: 41px;
+    }
+
+
+    .services-area .services{
+        margin: 1rem 4rem;
+        padding: 1rem 2rem;
+    }
+
+    #services .title-text{
+        font-size: 1.5rem;
+    }
+
+    #projets button{
+        background: transparent;
+        border: none;
+        text-align: center;
+        font: normal 500 18px/40px var(--roboto);
+        text-transform: uppercase;
+        }
+
+        #projets button+button{
+            padding-left: 0rem;
+            
+            }
+        
+    #projets img{
+        width: 15rem;
+    }
+    #contact{
+        padding: 0;
+        margin: 0;
+    }
+
+    #contact h3{
+        font-size: 35px;
+        font-family: var(--roboto);
+        margin-bottom: 1em;
+    }
+
+    #contact h4{
+        font-family: var(--roboto);
     }
 } 
 
+
+@media screen and (max-width:792px){
+    
+    .about-me h2{
+        font: normal 400 1rem var(--roboto)
+    }
+
+
+
+
+    .project-area .button-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .site-main .about-me{
+        padding: 8rem 5rem;
+        text-align: justify;
+    }
+
+    .brand-area{
+        padding: 1rem 1rem;
+        margin: 0rem ;
+        margin-bottom: 3rem;
+    
+    }
+
+    .services-area{
+        padding: 3rem 0rem;
+        margin: 0;
+    }
+
+    .services-area .services-title{
+        padding: 0rem;
+    }
+    .services-area .services{
+        background: rgba(248, 252, 253, 0.973);
+        padding: 2rem 0;
+        width: 18rem;
+        margin: 3rem 0rem;
+        transition: box-shadow .7s ease;
+        height: 25rem;
+    }
+
+    .site-main .about-me{
+        padding: 4rem 4rem;
+        text-align: justify;
+    }
+}

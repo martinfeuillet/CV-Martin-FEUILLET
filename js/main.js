@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(window).on('load',function(){
 
     let $btns=$('.project-area .button-group button');
     $btns.click(function(e){
