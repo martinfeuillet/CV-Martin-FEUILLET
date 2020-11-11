@@ -1,11 +1,5 @@
 @import url(font.css);
 
-/* css variable */
-@import "_variables.css";
-
-/* global style */
-@import "_global.css";
-
 /*  start navigation */
 .main-menu{
 	margin-bottom: 5em;
