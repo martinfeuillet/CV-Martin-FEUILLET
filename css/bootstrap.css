@@ -1,5 +1,10 @@
-@import url(font.css);
 
+/* @font-face */
+@font-face{
+    font-family: "Roboto";
+    src: "../fonts/Roboto/roboto-regular.ttf";
+}
+/* @font-face */
 /*  begin global css */
 
 html, body{
@@ -89,7 +94,7 @@ padding: 0 2rem 0 4rem;
 	text-align: justify;
 }
 .about-image img{
-	margin-top: 3em;
+	margin-top: 8em;
 }
 
 .about-me .primary-button{
